@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; /* remove first settings */
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+
+.headerEcc {
+    
+  margin : 0 auto;  
+  background-color: #381961;
+  padding: 0 50px;
+  color: beige;
+  padding-top: 10px;
+
+}
+ 
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+.nav_Link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  
+  .rwd-headLine {
+  
+    
+    height: 300px;
+    background-color: #fff;   
+    align-items: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    
+    
+  }
+
+  nav .nav_Link:hover{
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    
+    
+}
+
+
+
+
+.gallery-text{
+    padding: 10rem 0;
+    background-color: #ffffff;
+    
+
+}
+
+
+
+ 
+.gallery-text div:first-child h2{
+  width: 74%;
+  margin: auto;
+  text-align: center;
+  color: rgb(39, 39, 46);  
+  font-size: 4rem;
+  font-weight: 700;
+  
+
+}
+
+
+.gallery-description{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+    padding-bottom: 10rem;
+  }
+  
+
+
+
+.container{
+    max-width: 1170px;    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: rgb(60, 59, 68);
+    padding: 70px 0px;
+}
+.footer-col{
+    width: 25%;
+    padding: 15px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+    
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .social-links a{
+    
+    color: #ffffff;
+    
+
+}
+
+

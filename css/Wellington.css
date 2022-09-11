@@ -1,0 +1,245 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; /* remove first settings */
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+
+.headerEcc {
+    
+  margin : 0 auto;  
+  background-color: #381961;
+  padding: 0 50px;
+  color: beige;
+  padding-top: 10px;
+
+}
+ 
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+.nav_Link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  
+  .rwd-headLine {
+  
+    
+    height: 300px;
+    background-color: #fff;   
+    align-items: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    
+    
+  }
+
+  nav .nav_Link:hover{
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    
+    
+}
+
+
+.banner-area{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/Wellington.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 20%;
+    z-index: -1;
+
+}
+
+
+
+.gallery-text{
+    padding: 10rem 0;
+    background-color: #ffffff;
+
+}
+
+ 
+.gallery-text div:first-child h2{
+  width: 74%;
+  margin: auto;
+  text-align: center;
+  color: rgb(39, 39, 46);  
+  font-size: 2.8rem;
+  font-weight: 700;
+  
+
+}
+
+
+.gallery-description{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+
+
+
+.img-auckland {
+    width: 70%;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+.albany-text{
+    padding: 10rem 0;
+    background-color: #ffffff;
+
+}
+
+ 
+.albany-text div:first-child h2{
+  width: 74%;
+  margin: auto;
+  text-align: center;
+  color: rgb(39, 39, 46);  
+  font-size: 2.8rem;
+  font-weight: 700;
+  
+
+}
+
+
+.albany-address{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.albany-phone-number{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.albany-email-address{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+
+
+.container{
+    max-width: 1170px;    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: rgb(60, 59, 68);
+    padding: 70px 70px;
+}
+.footer-col{
+    width: 25%;
+    padding: 15px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+    
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .social-links a{
+    
+    color: #ffffff;
+    
+
+}

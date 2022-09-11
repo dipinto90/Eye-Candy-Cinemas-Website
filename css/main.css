@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; /* remove first settings */
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+/* Navigation bar features */
+.headerEcc {
+    
+  margin : 0 auto;  
+  background-color: #381961;
+  padding: 0 50px;
+  color: beige;
+  padding-top: 10px;
+
+}
+ 
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* To make Navigation bar Responsive */
+.nav_Link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  
+
+/* When Hovering on Navigation Bar*/
+nav .nav_Link:hover{
+    
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    padding-left: 8px;
+    
+}
+
+/* Banner area features and responsiveness*/
+.banner-area{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/leontheprofessional.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 20%;
+    z-index: -1;
+
+}
+/* Banner area text to keep it Responsive as well*/
+.banner-text{
+    height: 500px;
+    align-items: center;
+    display: flex;  
+    flex-direction: column;
+  justify-content: center;
+  text-align:center;
+
+}
+
+.banner-area h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+  
+.banner-area p{
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;    
+    font-size: 20px;
+    
+}
+
+
+.button-banner {
+
+    text-decoration: none;
+    padding: 10px;
+    background: #ffffff;
+    border:rgb(255, 255, 255);
+    outline: rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    color: #381961;      
+    transition: .6s;    
+}
+.button-banner:hover{
+    
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    background: #d4244a;
+    color: #fff;
+    
+    
+}
+
+
+.our-deals{
+
+    padding: 4rem 0;
+    background-color: #ffffff;
+
+   
+   }
+
+
+.our-deals div:first-child h2{
+  width: 74%;
+  margin: auto;
+  text-align: center;
+  color: rgb(39, 39, 46);  
+  font-size: 2.8rem;
+  font-weight: 700;
+
+}
+
+
+.our-deals-text{
+    width: 45%;
+    margin: auto;
+    padding-top: 1.2rem;
+    color: rgb(39, 39, 46);    
+    font-size: 1.1rem;    
+    text-align: center;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+.our-deals-wrapper {
+    padding: 80px 40px;
+   
+
+}
+
+.our-deals-wrapper img{
+    padding: 5%;
+    width: 100%;
+    box-shadow: 0 0 15px  rgba(0,0,0,0.3);
+    cursor: pointer;
+
+}
+
+.our-deals button{
+    
+    text-decoration: none;
+    padding: 10px 10px;
+    background: #381961;
+    border:rgb(255, 255, 255);
+    outline: rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    color: #fff;      
+    transition: .6s;           
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.our-deals button:hover{
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    background: #d4244a;
+    color: #fff;
+}
+
+
+
+.ecc-account{    
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;          
+    background-color: #381961;  
+    color: #ffffff;  
+    height: 500px;       
+}
+.ecc-account h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    bottom: 200px;
+}
+
+.ecc-account p{
+    font-size: 20px;
+}
+.button-account{    
+    
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;  
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    background: #ffffff;
+    border:rgb(255, 255, 255);
+    outline: rgb(255, 255, 255);    
+    font-weight: 800;
+    cursor: pointer;
+    color: #381961; 
+    transition: .6s;  
+   
+}
+
+.button-account:hover{
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    background: #d4244a;
+    color: #fff;
+}
+
+
+
+
+
+.container{
+    max-width: 1170px;    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: rgb(60, 59, 68);
+    padding: 70px 30px;
+}
+.footer-col{
+    width: 25%;
+    padding: 15px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-weight: 600;
+    padding: 20px;
+
+
+    
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}.footer-col ul li a:hover{
+    
+    font-weight: 800;
+    font-size: 16px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    
+}
+.footer-col .social-links a{
+    
+    color: #ffffff;
+    
+
+}
